@@ -14,6 +14,11 @@ li{
     max-width: 1300px; 
     margin:auto;
 }
+body{
+    background: #FCFAFF;
+    box-shadow: -20px 20px 0px rgba(82, 79, 61, 0.1);
+    border-radius: 20px;
+}
 html{
     font-family: 'Open Sans', sans-serif;
 }

@@ -40,7 +40,21 @@
     height: 574px;
     position: relative;
     margin: 0;
-
+}
+.section-01::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #e36ce6 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    opacity: 0.4;
+    filter: blur(116px);
 }
 .section-01 .text-01{  
     height: 272px;
@@ -127,6 +141,7 @@
 .section-03{
     height: 2032px;   
     width: 100%;   
+    
 }
 .section-03 .container{
     margin-top: 80px;
@@ -185,12 +200,9 @@
     width: 412px;
     height: 506px;
 }
-.section-03 .container .line .card image{
+.section-03 .container .line .card img{
     height: 396px;
     width: 412px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
     border-radius: 30px;
     box-shadow: -15px 15px 0px rgba(17, 17, 17, 0.5);
     border: 1px solid #000000
@@ -241,6 +253,7 @@
     display: flex;
     align-items: center;
     justify-content: center; 
+    ;
 }
 .section-04 .container{
     height: 372px;
@@ -255,8 +268,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
-
 }
 .section-04 .container .content h1{
     height: 64px;
@@ -267,6 +278,7 @@
     line-height: 64px;
     letter-spacing: 0px;
     text-align: center;
+
 }
 .section-04 .container .content .text-01{
     display: flex;
@@ -329,4 +341,360 @@
     text-align: center;
     color: #532C59;
     margin-top: 12px;
+}
+/* Section - 04 */
+
+/* Section - 05 */
+
+.section-05{
+    width: 100%;
+    height: 562px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+.section-05 .container{
+    height: 372px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;  
+    
+}
+.section-05 .container .content{
+    height: 136px;
+    width: 856px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.section-05 .container .content h1{
+    height: 64px;
+    width: 856px;
+    font-family: "Syne";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-05 .container .content .text-01{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 48px;
+    gap: 10px;
+    width: 856px;
+    height: 48px;
+}
+.section-05 .container .content p{
+    width: 690px;
+    height: 48px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
+    text-align: center;
+    color: #532C59;
+}
+.section-05 .container .team{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 156px;  
+}
+.section-05 .container .team .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    width: 301px;
+    height: 156px;
+    
+}
+.section-05 .container .team .card h2{
+    width: 269px;
+    height: 36px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;  
+}
+.section-05 .container .team .card p{
+    width: 269px;
+    height: 40px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px; 
+    text-align: center;
+    color: #532C59;  
+}
+/* Section - 05 */
+
+/* Section - 06 */
+
+.section-06{
+    width: 100%;
+    height: 944px;
+    
+}
+.section-06 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 864px;
+    margin-top: 80px;
+  
+}
+.section-06 .container .head{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 856px;
+    height: 64px;
+}
+.section-06 .container .head h1{
+    width: 856px;
+    height: 64px; 
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+}
+.section-06 .container .content{
+    width: 1300px;
+    height: 720px;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 80px;
+    
+}
+.section-06 .container .content .row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 412px;
+    height: 808px;
+    
+}
+.section-06 .container .content .row .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    width: 412px;
+    height: 208px;
+    background: #FFFFFF;
+    border: 1px solid #D6BCFA;
+    border-radius: 10px;
+
+}
+.section-06 .container .content .row .card .tweet-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 364px;
+    height: 160px;
+}
+.section-06 .container .content .row .card .tweet-content .profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-bottom: 10px;
+}
+.section-06 .container .content .row .card .tweet-content p{
+    width: 364px;
+    height: 96px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+
+}
+.section-06 .container .content .row .card .tweet-content .profile #avatar{
+    width: 48px;
+    height: 48px;
+    border: 8px solid #FFFFFF;
+    border-radius: 80px;
+}
+.section-06 .container .content .row .card .tweet-content .profile .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 308px;
+    height: 44px;
+    margin-left: 10px;
+}
+.section-06 .container .content .row .card .tweet-content .profile .text .name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 308px;
+    height: 20px;
+}
+.section-06 .container .content .row .card .tweet-content .profile .text .hasthag{
+    width: 308px;
+    height: 24px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+}
+.section-06 .container .content .row .card .tweet-content .profile .text .name .name-text{
+    width: 308px;
+    height: 20px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+/* Section - 06 */
+
+/* Section - 07 */
+.section-07{
+    width: 100%;
+    height: 632px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.section-07 .container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 542px;
+    
+    justify-content: space-between;
+}
+.section-07 .container .content-01{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 412px;
+    height: 324px;
+}
+.section-07 .container .content-01 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 412px;
+    height: 248px;
+}
+.section-07 .container .content-01 .text h1{
+    width: 412px;
+    height: 128px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+}
+.section-07 .container .content-01 .prgrf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 412px;
+    height: 96px;
+}
+.section-07 .container .content-01 .prgrf p{
+    width: 412px;
+    height: 96px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+}
+.section-07 .container .content-02{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 856px;
+    height: 542px;
+}
+.section-07 .container .content-02 .faq-01{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 412px;
+    height: 542px;
+}
+.section-07 .container .content-02 .faq-01 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 12px;
+    width: 412px;
+    height: 100px;
+    border: 1px solid #D6BCFA;
+    border-radius: 15px;
+}
+.section-07 .container .content-02 .faq-01 .card .header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 364px;
+    height: 52px;
+}
+.section-07 .container .content-02 .faq-01 .card .header h4{
+    width: 308px;
+    height: 52px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.8;
+}
+.section-07 .container .content-02 .faq-01 .card .header #icon{
+    height: 24px;
+    width: 24px;
+    left: 340px;
+    top: 0px;
+    border-radius: 0px;
+
 }
